@@ -1,7 +1,11 @@
 /* Font  */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
+
+
 /* Common Or utilities */
+
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #E5E5E5;
@@ -17,7 +21,10 @@ main{
     padding: 30px;
 }
 
+
+
 /* Player css Start  */
+
 .top-player{
     margin-bottom: 22px;
 }
@@ -47,4 +54,30 @@ main{
 }
 hr{
     border: 1px solid #D1D1D1;
+}
+
+
+/* Blogs Css Start  */
+
+.thumbnail img{
+    width: 177px;
+    height: 127px;
+}
+.blog-info{
+    margin-left:16px ;
+}
+.blog{
+    display: flex;
+}
+.blog-title{
+    font-size: 20px;
+}
+.author{
+    color: #9F9F9F;
+    font-size: 16px;
+}
+.author a{
+    color: #562EFF;
+    text-decoration: none;
+    font-size: 16px;
 }
